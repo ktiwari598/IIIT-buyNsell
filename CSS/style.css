@@ -1,0 +1,225 @@
+.container{
+    /*border: 1px solid red;*/
+    height: 100%;
+    background: rgba(245, 217, 238, 0.473);
+}
+
+
+#header{
+    border: 2px solid rgb(196, 183, 183);;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(196, 183, 183);
+    height: 8vh;
+    position: relative;
+    top: -10px;
+    
+}
+
+#image{
+    /*border: 2px solid blue;*/
+
+}
+#header-img{
+  height: 8vh;
+    
+}
+
+#heading{
+    /*border: 2px solid red;*/
+    text-align: justify;
+    margin-right: auto;
+    margin-left: 10px;
+    color: rgb(52, 53, 52);
+    font-size: 15px;
+    
+}
+
+#heading h2{
+    position: relative;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#navbar2{
+    
+    
+    /*border: 2px solid black;*/
+    width: 40%;
+}
+
+
+
+#nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    //background-color: rgba(238, 31, 186, 0.473);
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    height:auto;
+    
+    
+}
+
+
+#nav-bar ul li a{
+    font-size: 20px;
+    margin: 10px 20px 0px 70px;
+    text-decoration: none;
+    display: inline-block;
+    color: #f1fafa;
+    
+    
+}
+
+#nav-bar li a:hover{
+    transform: scale(1.1);
+    /*background-color: rosybrown;*/
+    color: grey;
+}
+
+#form{
+    display:flex;
+    flex-direction: column;
+    place-items: center;
+    //border: 2px solid blue;
+}
+
+#form h2{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: rgb(9, 77, 146);
+}
+
+#email{
+    width: 20%;
+    padding: 5px;
+}
+
+#submit{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 10%;
+    background: rgb(85, 179, 42);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+#submit:hover{
+    transform: scale(1.1);
+}
+
+
+.premium_materials{
+    /*border: 1px solid red;*/
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.fontawesome{
+    width: 30%;
+    //border: 2px solid black;
+}
+
+#font1{
+    font-size: 60px;
+    color: #43ec43;
+    margin-right: 100px;
+    margin-top: 20px;
+    //border: 1px solid green;
+    float: right;
+}
+
+.premium{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.premium p{
+    position: relative;
+    top: -15px;
+}
+
+.video{
+    margin: 75px auto 100px auto;
+    text-align: center;
+}
+
+.price{
+    /*border: 2px solid blue;*/
+    display: flex;
+    justify-content: center;
+}
+
+.price1{
+    border: 1px solid black;
+    width: 20%;
+    margin: 0px 20px 0px 20px;
+    border-radius: 3px;
+}
+
+.price_heading{
+    /*border: 1px solid blue;*/
+    position: relative;
+    top: -18px;
+    height: 15%;
+    text-align: center;
+    background: rgb(245, 198, 198);
+}
+
+
+
+.price_content{
+    /*border: 1px solid blue;*/
+    text-align: center;
+}
+
+#select{
+    background: orange;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#select:hover{
+    background: yellow;
+    transform: scale(1.05);
+}
+
+.footer{
+    background: cyan;
+    margin-top: 20px;
+    height: 10%;
+    border: 1px solid cyan;
+    position: relative;
+    bottom: -10px;
+}
+
+.subfooter{
+    margin-top: 10px;
+    /*border: 1px solid blue;*/
+}
+
+.subfooter p{
+    text-align: center;
+}
+
+@media (max-width: 1210px){
+    #nav-bar ul li a{
+        font-size: 1.25vw;
+    }
+
+    #nav-bar {
+        width: 50%;
+    }
+}
